@@ -1,6 +1,16 @@
 import java.util.LinkedList;
-    // LinkedList = stores in 2 parts (data + address)
-    // Nodes are in non consecutive memory locations Elements are linked using pointers
+// LinkedList = stores in 2 parts (data + address)
+// Nodes are in non consecutive memory locations Elements are linked using pointers
+//                     Singly Linked List
+//        Node                Node                 Node
+//     (data|address) ->  (data|address)  ->   (data|address)
+
+//                           Doubly Linked List
+//           Node                    Node                    Node
+//  (address|data|address) <-> (address|data|address) <-> (address|data|address)
+
+
+
 public class linkedlist {
     public static void main(String[] args){
 
@@ -17,6 +27,7 @@ public class linkedlist {
     
             System.out.println(linkedList.peekFirst());
             System.out.println(linkedList.peekLast());
+
             linkedList.addFirst("0");
             linkedList.addLast("0");
     
