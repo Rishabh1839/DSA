@@ -3,7 +3,7 @@ import java.util.*;
 // Priority Queue = a FIFO data structure that serves elements
 // in the order of their priority. The element with the highest
 // priority is served before other elements with lower priority.
-public class priorityQueue {
+public class priority_queue {
     public static void main(String args[])
     {
         Queue<Double> queue = new PriorityQueue<>(Collections.reverseOrder());
