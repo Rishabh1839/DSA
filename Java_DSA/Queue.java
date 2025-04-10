@@ -7,7 +7,7 @@ import java.util.LinkedList;
 // A collection designed for holding elements prior to processing Linear data structure
 // add = enqueue, remove = dequeue
 
-public class Main {
+public class Queue {
     public static void main (String[] args){
     // Create a queue of strings
     Queue<String> queue = new LinkedList<String>();
