@@ -1,7 +1,14 @@
-import java.util.Queue;
+package Java_DSA;
 
+import java.util.Queue;
 import java.util.LinkedList;
-public static void main (String[] args){
+
+// Queue = FIFO (First In First Out) data structure
+// A collection designed for holding elements prior to processing Linear data structure
+// add = enqueue, remove = dequeue
+
+public class Main {
+    public static void main (String[] args){
     // Create a queue of strings
     Queue<String> queue = new LinkedList<String>();
 
@@ -20,6 +27,6 @@ public static void main (String[] args){
     //queue.poll();
     //queue.poll();
     //queue.poll();
-
     System.out.println(queue); // Output: [Karen, Chad, Steve, Harold]
+    }
 }
