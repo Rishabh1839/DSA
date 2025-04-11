@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 
+// Dynamic array - a resizable array that can grow and shrink in size
+// as needed. It is a data structure that allows for efficient
 public class dynamic_array_main {
     public static void main(String[] args) {
         
